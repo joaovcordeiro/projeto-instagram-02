@@ -1,0 +1,595 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #FAFAFA;
+  
+}
+.pagina{
+  font-family: 'Roboto', sans-serif;
+  width: 1366px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 55px;
+  background-color: #FAFAFA;
+  text-decoration: none;
+}
+
+.top{
+  position: fixed;
+  height: 54px;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  z-index: 50;
+}
+.top-int{
+  width: 1366px;
+  height: 54px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo{
+  display: flex;
+  font-size: 19.25px;
+  margin-left: 216.38px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+.vr{
+  width: 1px;
+  height: 22px;
+  background-color: #DBDBDB;
+  margin-left: 11.38px;
+  margin-right: 10px;
+}
+.pesquisa{
+  width: 215px;
+  height: 28px;
+  background-color: #FAFAFA;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color: #979797;
+  text-align: center;
+}
+.icones{
+  margin-right: 218px;
+}
+.icones:hover{
+  cursor: pointer;
+}
+.icones ion-icon{
+  margin-right: 20px;
+  font-size: 17px;
+}
+
+.pagina-rolavel{
+  width: 614px;
+  height: 100%;
+  padding-top: 34px;
+  margin-left: 215px; 
+  background-color: #FAFAFA;
+}
+.barra-story{
+  position: relative;
+  width: 614px;
+  height: 118px;
+  margin-bottom: -36px;
+  background-color: #ffffff;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex; 
+  overflow: hidden;
+}
+.storys-seta{
+  position: absolute;
+  z-index: 25;
+  right: 8px;
+  top: 46px;
+  font-size: 26px;
+}
+.storys-seta:hover{
+  cursor: pointer;
+}
+.storys img{
+  width: 66px;
+  height: 66px;
+  margin-left: 14px;
+}
+.storys{
+  position: absolute;
+  z-index: 19;
+  left: 4px;
+  top: 18px;
+  bottom: 34px;
+  display: flex;
+}
+.storys-img img{
+  width: 56px;
+  height: 56px;
+  margin-left: 24px;
+}
+.storys-img{
+ position: absolute;
+ display: flex;
+ z-index: 20;
+ top: 23px;
+ left: -1px;
+}
+.storys-name{
+  position: absolute;
+  bottom: 14px;
+  top: 85px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: red;
+}
+.storys-name p {
+  font-size: 12px;
+  line-height: 14px;
+}
+.name-1 {
+  position: absolute;
+  left: 21px;
+  width: 58px;
+  height: 19px;
+}
+.name-2 {
+  position: absolute;
+  left: 102px;
+  width: 58px;
+  height: 19px;
+}
+.name-3 {
+  position: absolute;
+  left: 182px;
+  width: 58px;
+  height: 19px;
+}
+.name-4 {
+  position: absolute;
+  left: 252px;
+  width: 78px;
+  height: 19px;
+}
+.name-5 {
+  position: absolute;
+  left: 332px;
+  width: 78px;
+  height: 19px;
+}
+.name-6 {
+  position: absolute;
+  left: 412px;
+  width: 78px;
+  height: 19px;
+}
+.name-7 {
+  position: absolute;
+  left: 492px;
+  width: 78px;
+  height: 19px;
+}
+.name-8 {
+  position: absolute;
+  left: 572px;
+  width: 78px;
+  height: 19px;
+}
+
+
+.post{
+  width: 614px;
+  height: 842px;
+  margin-top: 60px;
+  background-color: #ffffff;
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.barra-post{
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  z-index: 2;
+}
+.post img{
+  width: 612px;
+  height: 612px;
+}
+.barra-post img:first-child{
+  width: 32px;
+  height: 32px;
+  margin-left: 17px;
+}
+.barra-post img:hover{
+  cursor: pointer;
+}
+.barra-post p{
+  width: 109px;
+  height: 21px;
+  position: absolute;
+  left: 67px;
+}
+.barra-post p:hover{
+  cursor: pointer;
+}
+.barra-post img:last-child{
+  width: 16px;
+  height: 16px;
+  margin-right: 17px;
+}
+.barra-post-inf{
+  position: relative;
+  height: 116px;
+}
+.icone-post-left{
+  position: absolute;
+  left: 1px;
+  top: 10px;
+}
+.icone-post-left ion-icon{
+  margin-left: 14px;
+  font-size: 22px;
+}
+.icone-post-left ion-icon:hover{
+  cursor: pointer;
+  color: gray;
+}
+.icone-post-rigth ion-icon{
+  position: absolute;
+  right: 17.62px;
+  top: 14px;
+  font-size: 22px;
+}
+.icone-post-rigth ion-icon:hover{
+  color: gray;
+}
+.barra-post-inf img{
+  position: absolute;
+  left: 17px;
+  top: 40px;
+  width: 20px;
+  height: 20px;
+}
+.barra-post-inf p{
+  position: absolute;
+  left: 42px;
+  top: 42px;
+  width: 400px;
+  height: 21px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  word-spacing: 1px;
+}
+.barra-post-inf span{
+  font-weight: bold;
+}
+.barra-post-coment{
+  position: absolute;
+  top: 70px;
+  width: 612px;
+  height: 40px;
+}
+.barra-post-coment p:first-child{
+  position: absolute;
+  top: 0;
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.barra-post-coment span{
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+}
+.barra-post-coment p:nth-child(2){
+  position: absolute;
+  top: 25px;
+  font-size: 10px;
+  color: #8e8e8e;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+.comentario{
+  position: relative;
+  height: 53px;
+  border-top: 2px solid #fafafa;
+}
+.comentario ion-icon{
+  position: absolute;
+  left: 15px;
+  top: 25%;
+  font-size: 22px;
+}
+.comentario input{
+  position: absolute;
+  left: 50px;
+  top: 20%;
+  border: none;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: start;
+}
+.comentario button{
+  position: absolute;
+  right: 15px;
+  top: 30%;
+  color: #b4ddfc;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: none;
+}
+.comentario button:hover{
+  cursor: pointer;
+}
+
+
+.sidebar{
+  position: fixed;
+  width: 300px;
+  height: 447px;
+  top: 111px;
+  margin-left: 858px;
+ 
+}
+.sidebar-img-top{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sidebar-text-top{
+  position: absolute;
+  left: 74px;
+  top: 11px;
+  width: 182px;
+  height: 34px;
+}
+.sidebar-text-top p:first-child{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.sidebar-text-top p:nth-child(2){
+  color: #B3B3B3;
+  font-weight: lighter;
+}
+.sidebar-suggestion{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 117px;
+  height: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;  
+  color: #8E8E8E;
+}
+.sidebar-vertudo{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 55px;
+  height: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+}
+.sidebar-vertudo:hover{
+  cursor: pointer;
+}
+.sidebar-perfil:hover{
+  cursor: pointer;
+}
+.sidebar-perfil img{
+  font-size: 32px;
+}
+.seguir{
+  position: absolute;
+  right: 8px;
+  width: 36px;
+  height: 11px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #139EF2;
+}
+.seguir:hover{
+  cursor: pointer;
+}
+.sidebar-text-1{
+  position: absolute;
+  left: 43px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+.sidebar-text-1:hover{
+  cursor: pointer;
+  text-decoration:underline;
+}
+.sidebar-text-2{
+  position: absolute;
+  left: 43px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8E8E8E;
+}
+.sidebar-img-1{
+  position: absolute;
+  top: 112px;
+  left: 0;
+}
+
+.sidebar-text-11{
+  position: absolute;
+  top: 113px;
+}
+.sidebar-text-21{
+  position: absolute;
+  top: 133px;
+}
+.seguir-1{
+  top: 126px;
+}
+.sidebar-img-2{
+  position: absolute;
+  top: 160px;
+  left: 0;
+}
+
+.sidebar-text-12{
+  position: absolute;
+  top: 161px;
+}
+.sidebar-text-22{
+  position: absolute;
+  top: 181px;
+}
+.seguir-2{
+  top: 174px;
+}
+.sidebar-img-3{
+  position: absolute;
+  top: 208px;
+  left: 0;
+}
+.sidebar-text-13{
+  position: absolute;
+  top: 209px;
+}
+.sidebar-text-23{
+  position: absolute;
+  top: 229px;
+}
+.seguir-3{
+  top: 222px;
+}
+.sidebar-img-4{
+  position: absolute;
+  top: 256px;
+  left: 0;
+}
+.sidebar-text-14{
+  position: absolute;
+  top: 257px;
+}
+.sidebar-text-24{
+  position: absolute;
+  top: 277px;
+}
+.seguir-4{
+  top: 270px;
+}
+.sidebar-img-5{
+  position: absolute;
+  top: 304px;
+  left: 0;
+}
+.sidebar-text-15{
+  position: absolute;
+  top: 305px;
+}
+.sidebar-text-25{
+  position: absolute;
+  top: 325px;
+}
+.seguir-5{
+  top: 318px;
+}
+.sidebar-text-bot{
+  position: absolute;
+  left: 0;
+  top: 369px;
+  width: 300px;
+  height: 42px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #C7C7C7;
+}
+.sidebar-text-bot-2{
+  position: absolute;
+  left: 0;
+  top: 429px;
+  width: 300px;
+  height: 14px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #C7C7C7; 
+}
+
+
+/* configurações de desktop sem barra lateral */
+@media (max-width: 935px) {
+    .pagina{
+      width: 900px;
+    }
+    .top-int{
+      width: 900px;
+    }
+    .logo{
+      margin-left: 21.38px;
+    }
+    .icones{
+      margin-right: 18px;
+    }
+    .pagina-rolavel{
+      margin: 0 auto;
+    }
+    .sidebar{
+      display: none;
+    }
+  }
+
+
+
+
+
+/* configurações para mobile */
+@media (max-width: 614px) {
+    .pagina {
+      width: 612px;
+      margin: 0 auto;
+    }
+    .top-int{
+      width: 612px;
+      position: relative;
+    }
+    #logo-instagram{
+      position: absolute;
+      left: 255px;
+    }
+    .icones{
+      width: 17px;
+      
+    }
+    .barra-story{
+      margin-bottom: -60px;
+      background-color: #FAFAFA;
+    }
+    .pagina-rolavel{
+      padding-top: 0;
+    }
+    .no-mobile{
+      display: none;
+    }
+  }
